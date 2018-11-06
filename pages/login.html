@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>Explore The Stars!</title>
+    <title>Sign Up</title>
   </head>
-  <body>
+  <body class="backgroundColor">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="home.html">Explore The Stars</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,10 +24,48 @@
           <li class="nav-item">
             <a class="nav-link" href="aboutme.html">About</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="search.html">Seach</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Login
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="signup.html">Sign up</a>
+              <a class="dropdown-item" href="login.html">Login</a>
+            </div>
+          </li>
         </ul>
       </div>
     </nav>
-
+    <div class="textColorCustom text-center my-5">
+      <div>
+        <h1>Welcome Back!</h1>
+      </div>
+      <div class="offset-sm-2 col-sm-8">
+        <p>Login below</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <form class="textColorCustom text-center" action="home.html">
+            <div class="form">
+              <label for="email">Enter your Email: </label>
+              <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+            </div>
+            <div class="form my-3">
+              <label for="password">Enter your Password: </label>
+              <input type="password" name="password" class="tests" id="password" minlength="8" required>
+            </div>
+            <div class="form">
+              <input type="submit" value="Submit">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
