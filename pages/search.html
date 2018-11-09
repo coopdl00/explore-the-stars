@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Search</title>
   </head>
-  <body class="backgroundColor">
+  <body class="backgroundColor" style="font-family: 'Titillium Web', sans-serif;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="../index.html">Explore The Stars</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +25,10 @@
             <a class="nav-link" href="aboutme.html">About</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="search.html">Search</a>
+            <a class="nav-link" href="search.html">Earth Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mars.html">Mar Photos</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -40,8 +44,8 @@
     </nav>
     <div class="col-sm-8 offset-sm-2 text-center textColorCustom">
       <h1>Search</h1>
-      <p>When searching with Longitude and latitude get a value to the hundredth place. Make sure to make the value negative on the correct hemisphere. Some times the returned image is blue, I don't know how to fix it. It's on the Server side pictires and the way they are stored/taken. Some examples you can try are, Washington DC, Boulder CO, Yellowstone National Park.</p>
-      <h4>Only one search at a time.</h4>
+      <p>I suggest that you use <a href="https://www.latlong.net/">https://www.latlong.net/</a> to get latitudes and longitudes.</p>
+      <p>When searching with Longitude and latitude get a value to the hundredth place. Make sure to make the value negative on the correct hemisphere. Some times the returned image is blue, I don't know how to fix it. It's on the Server side pictires and the way they are stored/taken.</p>
     </div>
     <div class="container textColorCustom">
       <form class="text-center">
@@ -50,7 +54,7 @@
         <br>
         Longitude:<br>
         <input class="my-3 longitude" type="text" name="Longitude" value="">
-        <br><br>
+        <br>
         <input type="button" value="Search">
       </form>
     </div>
